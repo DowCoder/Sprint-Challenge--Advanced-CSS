@@ -1,9 +1,5 @@
 // Navigation code here
-.flex {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
+
 
     .navigation {
         .flex();
@@ -11,6 +7,11 @@
         padding-bottom: 10px;
         background-color: @nav-bg;
         border: 1px solid @nav-border;
+        
+        @media @phone {
+            width: 160vw;
+        }
+
         h1 {
             font-size: 4.5rem;
             padding-bottom: 10px;
@@ -23,6 +24,8 @@
             margin-left: 38px;
             font-size: 1.5rem;
              
-        } 
+           
 
+            
+        }
     }

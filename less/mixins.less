@@ -1,1 +1,26 @@
 // Mixins Here
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.border-radius(@radius: 5px) {
+    border-radius: @radius;
+}
+
+.signUp {
+    width: 30%;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.8rem;
+    background-color: @btn-bg-color;
+    color: @wild-sand;
+}
+
+.btnhover {
+    color: @btn-bg-color;
+    background-color: @wild-sand;
+    cursor: pointer;
+}
+
